@@ -8,22 +8,27 @@
 
 import UIKit
 
-class FoodieHomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class FoodieHomeViewController: UIViewController { //UICollectionViewDelegate, UICollectionViewDataSource {
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView.delegate = self
-        collectionView.dataSource = self
+        recipeController.fetchRecipes { (error, [Recipe]?) in
+            
+        }
+//        collectionView.delegate = self
+//        collectionView.dataSource = self
+        
     }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
-    }
+//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return 3
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//        return UICollectionViewCell
+//
+//    }
     
 
     /*
@@ -38,6 +43,7 @@ class FoodieHomeViewController: UIViewController, UICollectionViewDelegate, UICo
     
     // MARK: - Properties
     @IBOutlet weak var collectionView: UICollectionView!
+    var recipeController = RecipeController()
     
 
 }
