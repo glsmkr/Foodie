@@ -8,12 +8,21 @@
 
 import UIKit
 
-class FoodieHomeViewController: UIViewController {
-
+class FoodieHomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        collectionView.delegate = self
+        collectionView.dataSource = self
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
     }
     
 
@@ -26,5 +35,9 @@ class FoodieHomeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    // MARK: - Properties
+    @IBOutlet weak var collectionView: UICollectionView!
+    
 
 }
