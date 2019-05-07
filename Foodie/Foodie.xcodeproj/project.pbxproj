@@ -14,6 +14,7 @@
 		C432588E227E63A40073C15B /* FoodieHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432588D227E63A40073C15B /* FoodieHomeViewController.swift */; };
 		C4325890227E78FC0073C15B /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432588F227E78FC0073C15B /* Recipe.swift */; };
 		C4325892227E79940073C15B /* RecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4325891227E79940073C15B /* RecipeController.swift */; };
+		C4C5A4D9228126ED0042E574 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C5A4D8228126ED0042E574 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C432588D227E63A40073C15B /* FoodieHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieHomeViewController.swift; sourceTree = "<group>"; };
 		C432588F227E78FC0073C15B /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		C4325891227E79940073C15B /* RecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeController.swift; sourceTree = "<group>"; };
+		C4C5A4D8228126ED0042E574 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C432587B227E5B630073C15B /* AppDelegate.swift */,
 				C432587F227E5B630073C15B /* Main.storyboard */,
 				C432588D227E63A40073C15B /* FoodieHomeViewController.swift */,
+				C4C5A4D8228126ED0042E574 /* SearchViewController.swift */,
 				C432588F227E78FC0073C15B /* Recipe.swift */,
 				C4325891227E79940073C15B /* RecipeController.swift */,
 				C4325882227E5B640073C15B /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C5A4D9228126ED0042E574 /* SearchViewController.swift in Sources */,
 				C4325890227E78FC0073C15B /* Recipe.swift in Sources */,
 				C4325892227E79940073C15B /* RecipeController.swift in Sources */,
 				C432587C227E5B630073C15B /* AppDelegate.swift in Sources */,
